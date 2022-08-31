@@ -23,7 +23,7 @@ let solider = {
   hurt: function () {
     if (this.health > 0) {
       this.health -= 1;
-      if ((this.health = 0)) {
+      if (this.health === 0) {
         console.log("Ты проиграл");
       }
     }
